@@ -7,6 +7,7 @@
     "dev": "vite dev",
     "build": "vite build",
     "build:github": "vite build --base=/beauty_model/",
+    "start": "node ./scripts/render-start.mjs",
     "migrate": "node ./scripts/run-migrations.js",
     "build:dev": "vite build --mode development",
     "preview": "vite preview",
